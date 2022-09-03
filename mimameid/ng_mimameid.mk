@@ -18,14 +18,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common droid-ng stuff
+$(call inherit-product, vendor/droid-ng/config/common_full_phone.mk)
 
 # Inherit from mimameid device
 $(call inherit-product, device/gigaset/GS5-unified/device.mk)
 
+TARGET_GAPPS_ARCH := arm64
+
 PRODUCT_BRAND := volla
 PRODUCT_DEVICE := mimameid
 PRODUCT_MANUFACTURER := Volla
-PRODUCT_NAME := lineage_mimameid
+PRODUCT_NAME := ng_mimameid
 PRODUCT_MODEL := Volla Phone 22

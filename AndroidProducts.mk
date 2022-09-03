@@ -15,13 +15,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    lineage_GS5:$(LOCAL_DIR)/GS5/lineage_GS5.mk \
-    lineage_mimameid:$(LOCAL_DIR)/mimameid/lineage_mimameid.mk
+    ng_GS5:$(LOCAL_DIR)/GS5/ng_GS5.mk \
+    ng_mimameid:$(LOCAL_DIR)/mimameid/ng_mimameid.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_GS5-user \
-    lineage_GS5-userdebug \
-    lineage_GS5-eng \
-    lineage_mimameid-user \
-    lineage_mimameid-userdebug \
-    lineage_mimameid-eng
+    ng_GS5-user \
+    ng_GS5-userdebug \
+    ng_GS5-eng \
+    ng_mimameid-user \
+    ng_mimameid-userdebug \
+    ng_mimameid-eng
