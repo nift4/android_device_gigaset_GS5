@@ -14,6 +14,6 @@ LOCAL_SHARED_LIBRARIES := \
     libbase \
     libbinder_ndk \
     libpowerhal \
-    android.hardware.power-ndk_platform
+    android.hardware.power-V1-ndk_platform
 
 include $(BUILD_SHARED_LIBRARY)
